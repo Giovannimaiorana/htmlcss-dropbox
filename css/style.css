@@ -27,7 +27,25 @@
                                                                                         .column-dx{
                                                                                             background-color: brown;
                                                                                         }
-
+                                                                                   
+                                                                                        .second-section-column-main{
+                                                                                            background-color: blue;
+                                                                                        }
+                                                                                        .column{
+                                                                                            background-color: white ;
+                                                                                        }
+                                                                                        .container-third-section{
+                                                                                            background-color: blue;
+                                                                                        }
+                                                                                        .container-fourth-section{
+                                                                                            background-color: red;
+                                                                                        }
+                                                                                        .container-fifth-section{
+                                                                                            background-color: chocolate;
+                                                                                        }
+                                                                                        .cells{
+                                                                                            background-color: black;
+                                                                                        }
 
 /*INIZIO HEADER*/
 
@@ -49,6 +67,8 @@
 /*FINE HEADER*/
 
 /*INIZIO MAIN*/
+ /*inizio primo blocco main*/
+
 .first-section-main{
     width: 100%;
     height: 800px;
@@ -63,9 +83,76 @@
 }
 .column-sx{
     width:30%;
-   height: 70%;
+   height: 100%;
 }
 .column-dx{
     width: 70%; 
-    height: 70%;
+    height: 100%;
 }
+
+/*fine primo blocco main*/
+
+/*Inizio secondo blocco*/
+
+.second-section-column-main{
+    width: 1300px;
+    height: 1100px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.column{
+    width: calc(80% / 3);
+    margin-left: 20px;
+    height:800px;
+    margin-bottom: 10px;
+}
+
+/*Fine Secondo blocco*/
+/*Inizio Terzo Blocco*/
+
+.container-third-section{
+    width: 1300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/*Fine Terzo Blocco*/
+/*Inizio quarto blocco*/
+
+.container-fourth-section{
+    width: 1300px;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/*Fine Quarto blocco*/
+/*Inizio Quinto  blocco*/
+.container-fifth-section{
+    width: 1300px;
+    height: 1100px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.cells{
+    width: calc(90% / 3);
+    height: 500px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/*fine Quinto blocco*/
+/*Inizio sesto blocco*/
+
+
+
