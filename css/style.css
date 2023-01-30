@@ -55,6 +55,25 @@
                                                                                         .sponsor-square{
                                                                                             background-color: red;
                                                                                         }
+                                                                                        .container-eight-section{
+                                                                                            background-color: rgb(180,208 ,231 );
+                                                                                        }
+                                                                                        .content-eight-section{
+                                                                                            background-color:black;
+                                                                                        }
+                                                                                        .content-ninth-section{
+                                                                                            background-color: blueviolet;
+                                                                                        }
+                                                                                        .container-tenth-section{
+                                                                                            background-color: black;
+                                                                                        }
+                                                                                        .content-tenth-section{
+                                                                                            background-color: red;
+                                                                                        }
+                                                                                        .columns-footer{
+                                                                                            background-color: bisque;
+                                                                                            border: 1px solid white;
+                                                                                        }
                                                                                         
 
 /*INIZIO HEADER*/
@@ -195,3 +214,48 @@
  height: 300px;
  border: 1px solid black;
 }
+
+/*Fine settimo blocco*/
+/* Inizio ottavo blocco*/
+.container-eight-section{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.content-eight-section{
+    width: 1300px;
+    height: 200px;
+    margin: auto;
+}
+/*Fine Ottavo blocco*/
+/*Inizio nono blocco*/
+
+.content-ninth-section{
+    width: 1300px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/*Fine nono blocco*/
+/*inizio decimo blocco FOOTER*/
+
+.container-tenth-section{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.content-tenth-section{
+    width: 1400px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+}
+.columns-footer{
+ width: calc(100% / 5);
+ height: 450px;
+}
+
