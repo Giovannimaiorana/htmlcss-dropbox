@@ -265,6 +265,7 @@
 /*colori square*/
 .square1{
     background-color: rgb(162, 211, 155);
+    border: 20px solid rgb(209, 233, 205);
 }
 .square2{
     background-color: rgb(97,8 , 43);
