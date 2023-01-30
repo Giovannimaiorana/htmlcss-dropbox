@@ -46,6 +46,16 @@
                                                                                         .cells{
                                                                                             background-color: black;
                                                                                         }
+                                                                                        .container-sixth-section{
+                                                                                            background-color: cornflowerblue;
+                                                                                        }
+                                                                                        .container-sponsor{
+                                                                                            background-color: darkblue;
+                                                                                        }
+                                                                                        .sponsor-square{
+                                                                                            background-color: red;
+                                                                                        }
+                                                                                        
 
 /*INIZIO HEADER*/
 
@@ -154,5 +164,34 @@
 /*fine Quinto blocco*/
 /*Inizio sesto blocco*/
 
+.container-sixth-section{
+    width: 1300px;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/*Fine sesto blocco*/
+/*Inizio settimo blocco sponsor*/
+
+.container-sponsor{
+    width: 100%;
+    height: 600px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.part-sponsor{
+    width: calc(100% / 3); 
+    display: flex;
+    flex-wrap: wrap;
 
 
+}
+.sponsor-square{
+ width: 300px;
+ height: 300px;
+ border: 1px solid black;
+}
