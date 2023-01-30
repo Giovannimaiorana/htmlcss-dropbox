@@ -10,10 +10,25 @@
                                                                                             background-color: black;
                                                                                         }
                                                                                         .header-logo{
-                                                                                            background-color: gray;
+                                                                                            background-color: rgb(255, 255, 255);
                                                                                         }
                                                                                         .link-header{
-                                                                                            background-color: gray;
+                                                                                            background-color: rgb(255, 255, 255);
+                                                                                        }
+                                                                                        .first-section-main{
+                                                                                            background-color:rgb(180,208 ,231 ) ;
+                                                                                        }
+                                                                                        .block-section{
+                                                                                            background-color: black;
+                                                                                        }
+                                                                                        .medium-p{
+                                                                                            background-color: bisque;
+                                                                                        }
+                                                                                        .column-sx{
+                                                                                            background-color: blueviolet;
+                                                                                        }
+                                                                                        .column-dx{
+                                                                                            background-color: brown;
                                                                                         }
 
 
@@ -37,3 +52,23 @@
 /*FINE HEADER*/
 
 /*INIZIO MAIN*/
+.first-section-main{
+    width: 100%;
+    height: 800px;
+    padding-top: 80px;
+}
+.block-section{
+    margin: auto;
+    width: 1400px;
+    height: 700px;
+    display: flex;
+    align-items: flex-end;
+}
+.column-sx{
+    width:30%;
+   height: 70%;
+}
+.column-dx{
+    width: 70%; 
+    height: 70%;
+}
