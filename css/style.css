@@ -6,9 +6,6 @@
 }
 
                                                                                         /*REGOLE DI DEBUG*/
-                                                                                        .flex-header-container{
-                                                                                            background-color: black;
-                                                                                        }
                                                                                         .header-logo{
                                                                                             background-color: rgb(255, 255, 255);
                                                                                         }
@@ -18,15 +15,8 @@
                                                                                         .first-section-main{
                                                                                             background-color:rgb(180,208 ,231 ) ;
                                                                                         }
-                                                                                        .block-section{
-                                                                                            background-color: black;
-                                                                                        }
-                                                                                        .column-sx{
-                                                                                            background-color: blueviolet;
-                                                                                        }
-                                                                                        .column-dx{
-                                                                                            background-color: brown;
-                                                                                        }
+                                                                               
+
                                                                                    
                                                                                         .second-section-column-main{
                                                                                             background-color: blue;
@@ -88,13 +78,35 @@
     height: 60px;
     position: fixed;
     justify-content: space-between;
+    background-color: white;
 }           
 
 .header-logo{
     width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
 }
 .link-header{
     width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+} 
+ul li{
+  list-style: none;
+  color: grey;
+  float: left;
+  padding-left: 50px;
+}
+.button-small{
+    background-color: rgb(1,97 ,255 );
+    border: none;
+    margin-left: 20px;
+    width: 60px;
+    height: 30px;
+    color: white;
 }
 
 /*FINE HEADER*/
@@ -109,18 +121,31 @@
 }
 .block-section{
     margin: auto;
-    width: 1400px;
+    width: 900px;
     height: 700px;
     display: flex;
     align-items: flex-end;
+    position: relative;
 }
 .column-sx{
     width:30%;
-   height: 100%;
+    display: flex;
+
+
 }
 .column-dx{
-    width: 70%; 
-    height: 100%;
+    width: 60%; 
+    
+}
+.first-section-main h1{
+    text-align: center;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+}
+.column-dx img{
+    width: 800px;
+
 }
 
 /*fine primo blocco main*/
@@ -266,6 +291,7 @@
 .square1{
     background-color: rgb(162, 211, 155);
     border: 20px solid rgb(209, 233, 205);
+
 }
 .square2{
     background-color: rgb(97,8 , 43);
@@ -287,4 +313,9 @@
 }
 .square8{
     background-color: rgb(254, 215, 48);
+}
+.square1 img{
+    width: 150px;
+    height: 150px;
+    padding-top: 120px;
 }
