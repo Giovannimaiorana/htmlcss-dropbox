@@ -29,14 +29,7 @@
                                                                                         .container-tenth-section{
                                                                                             background-color: black;
                                                                                         }
-                                                                                        .content-tenth-section{
-                                                                                            background-color: red;
-                                                                                        }
-                                                                                        .columns-footer{
-                                                                                            background-color: bisque;
-                                                                                            border: 1px solid white;
-                                                                                        }
-                                                                                        
+
                                                                                         
                                                                                         
                                                                                      
@@ -430,14 +423,39 @@ span a{
     justify-content: center;
 }
 .content-tenth-section{
-    width: 1400px;
-    height: 450px;
+    width: 1300px;
+    height: 400px;
     margin: auto;
     display: flex;
+    
 }
 .columns-footer{
  width: calc(100% / 5);
- height: 450px;
+ height: 400px;
+ display:flex ;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ 
+}
+.columns-footer ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 40px;
+}
+.columns-footer h2{
+    margin-top: 40px;
+    color: white;
+    margin-bottom: 40px
+}
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.bord{
+    border-bottom: 1px solid white;
 }
 /*Fine footer*/
 /*colori square*/
