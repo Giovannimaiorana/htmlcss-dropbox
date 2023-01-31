@@ -15,20 +15,8 @@
                                                                                         .first-section-main{
                                                                                             background-color:rgb(180,208 ,231 ) ;
                                                                                         }
-                                                                               
-
-                                                                                   
-
-                                                                                       
-                                                                                        .container-fifth-section{
-                                                                                            background-color: chocolate;
-                                                                                        }
-                                                                                        .cells{
-                                                                                            background-color: black;
-                                                                                        }
-                                                                                        .container-sixth-section{
-                                                                                            background-color: cornflowerblue;
-                                                                                        }
+                                                                                    
+                                                                                        
                                                                                         .container-sponsor{
                                                                                             background-color: rgb(245, 245, 245);
                                                                                         }
@@ -316,30 +304,43 @@ flex-direction: row-reverse;
 /*Fine Quarto blocco*/
 /*Inizio Quinto  blocco*/
 .container-fifth-section{
-    width: 1300px;
-    height: 1100px;
+    width: 1000px;
+    height: 1200px;
     margin: auto;
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+
 
 }
 .cells{
-    width: calc(90% / 3);
-    height: 500px;
-    margin-left: 10px;
+    width: calc(80% / 3);
+    height: 400px;
+    margin-left: 40px;
     margin-top: 10px;
+
+}
+.cells img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.cells h3{
+    margin-bottom: 30px;
 }
 
 /*fine Quinto blocco*/
 /*Inizio sesto blocco*/
 
 .container-sixth-section{
-    width: 1300px;
+    width: 950px;
     height: 200px;
     margin: auto;
     margin-top: 30px;
+    
+}
+
+.container-sixth-section h1{
+    margin-bottom: 70px;
 }
 
 /*Fine sesto blocco*/
