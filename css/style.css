@@ -348,13 +348,42 @@ flex-direction: row-reverse;
 .sponsor-square{
  width: 50%;
  height:50%;
- border: 1px solid black;
- position: relative;
+ display: flex;
+ justify-content: center;
 }
 .sponsor-square img{
+ filter: invert(100%);
+ width: 150px;
 
 }
-
+.description-sponsor{
+    display: flex;
+    flex-direction: column;
+}
+.logo img{
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.square3 img{
+    width: 250px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding top:20px;
+}
+.textdescritio{
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.riconoscimenti{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 13px;
+}
 
 /*Fine settimo blocco*/
 /* Inizio ottavo blocco*/
