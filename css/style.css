@@ -15,8 +15,6 @@
                                                                                         .first-section-main{
                                                                                             background-color:rgb(180,208 ,231 ) ;
                                                                                         }
-                                                                                    
-                                                                                        
                                                                                         .container-sponsor{
                                                                                             background-color: rgb(245, 245, 245);
                                                                                         }
@@ -29,12 +27,6 @@
                                                                                         .container-tenth-section{
                                                                                             background-color: black;
                                                                                         }
-
-                                                                                        
-                                                                                        
-                                                                                     
-                                                                                        
-
 /*INIZIO HEADER*/
 
 header{
@@ -89,14 +81,7 @@ ul li{
 .first-section-main{
     width: 100%;
     height: 800px;
-    padding-top: 80px;
 }
-.spacewhite{
-    width: 100%;
-    background-color: white;
-   
-}
-
 .block-section{
     margin: auto;
     width: 1100px;
@@ -104,6 +89,8 @@ ul li{
     display: flex;
     align-items: flex-end;
     position: relative;
+    bottom: -190px;
+
 }
 .column-sx{
     width:30%;
@@ -120,17 +107,22 @@ ul li{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.column-sx p{
+    margin-top: -10px;
+}
 button a {
     color: white;
     text-decoration: none;
 }
 .arrow{
-    font-size: 40px;
-    margin-top: 100px;
-    margin-bottom: 30px;
+    font-size: 50px;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 .column-dx{
     width: 70%; 
+    display: flex;
+    flex-direction: column;
     
 }
 .first-section-main h1{
@@ -138,11 +130,13 @@ button a {
     font-size: 60px;
     position: absolute;
     top: 0;
+ 
 }
 .column-dx img{
-    width: 800px;
-
+    width: 900px;
+    margin-top: 70px;
 }
+
 
 /*fine primo blocco main*/
 
@@ -154,6 +148,7 @@ button a {
     margin: auto;
     margin-top: 30px; 
     justify-content: space-between;
+    margin-top: 70px;
 }
 .second-section-column-main h1{
     font-size: 40px;
@@ -351,14 +346,22 @@ flex-direction: row-reverse;
  display: flex;
  justify-content: center;
 }
-.sponsor-square img{
+#logofix{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 70px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.sponsor-square  img{
  filter: invert(100%);
  width: 150px;
-
 }
 .description-sponsor{
     display: flex;
     flex-direction: column;
+    overflow: scroll;
 }
 .logo img{
     width: 300px;
@@ -490,10 +493,25 @@ li a {
 /*colori square*/
 .square1{
     background-color: rgb(162, 211, 155);
+}
+.square1:hover{
     border: 20px solid rgb(209, 233, 205);
+    transition: 1s;
+}
+.square1:active img {
+    width: 250px;
+    transition: 1s;
 }
 .square2{
-    background-color: rgb(97,8 , 43);
+    background-color: rgb(97, 8, 43);
+}
+.square2:hover{
+    border: 20px solid rgb(140, 8,93);
+    transition: 1s;
+}
+.square2:active img{
+    width: 230px;
+    transition: 1s;
 }
 .square3{
     background-color: rgb(0, 146, 206);
