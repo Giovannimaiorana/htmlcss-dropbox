@@ -89,7 +89,7 @@ ul li{
     display: flex;
     align-items: flex-end;
     position: relative;
-    bottom: -190px;
+    bottom: -140px;
 
 }
 .column-sx{
@@ -130,11 +130,14 @@ button a {
     font-size: 60px;
     position: absolute;
     top: 0;
- 
+    margin-top: -80px;
 }
 .column-dx img{
     width: 900px;
-    margin-top: 70px;
+    margin-top: 0px;
+}
+a i {
+    color: black;
 }
 
 
@@ -345,6 +348,7 @@ flex-direction: row-reverse;
  height:50%;
  display: flex;
  justify-content: center;
+ align-items: center;
 }
 #logofix{
     display: flex;
@@ -356,7 +360,7 @@ flex-direction: row-reverse;
 }
 .sponsor-square  img{
  filter: invert(100%);
- width: 150px;
+ width: 50%;
 }
 .description-sponsor{
     display: flex;
@@ -371,10 +375,6 @@ flex-direction: row-reverse;
 .square3 img{
     width: 250px;
     height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding top:20px;
 }
 .textdescritio{
     margin-top: 40px;
@@ -490,7 +490,7 @@ li a {
     border-bottom: 1px solid white;
 }
 /*Fine footer*/
-/*colori square*/
+/*Animazioni*/
 .square1{
     background-color: rgb(162, 211, 155);
 }
@@ -516,18 +516,72 @@ li a {
 .square3{
     background-color: rgb(0, 146, 206);
 }
+.square3:hover{
+    border: 20px solid rgb(50, 196, 256);
+    transition: 1s;
+}
+.square3:active img{
+    width: 250px;
+    transition: 1s;
+}
 .square4{
     background-color: rgb(255, 28, 28);
+}
+.square4:hover{
+    border: 20px solid rgb(305, 78, 78);
+    transition: 1s;
+}
+.square4:active img{
+    width: 230px;
+    transition: 1s;
 }
 .square5{
     background-color: rgb(201, 4, 30);
 }
+.square5:hover{
+    border: 20px solid rgb(251, 54, 80);
+    transition: 1s;
+}
+.square5:active img{
+    width: 230px;
+    transition: 1s;
+}
 .square6{
     background-color: rgb(180, 208, 231);
+}
+.square6:hover{
+    border: 20px solid rgb(230, 258, 281);
+    transition: 1s;
+}
+.square6:active img{
+    width: 230px;
+    transition: 1s;
 }
 .square7{
     background-color: rgb(13, 36, 129);
 }
+.square7:hover{
+    border: 20px solid rgb(63, 86, 179);
+    transition: 1s;
+}
+.square7:active img{
+    width: 230px;
+    transition: 1s;
+}
 .square8{
     background-color: rgb(254, 215, 48);
+}
+.square8:hover{
+    border: 20px solid rgb(304, 265, 98);
+    transition: 1s;
+}
+.square8:active img{
+    width: 230px;
+    transition: 1s;
+}
+.button-small:hover{
+    color: black ;
+}
+button:hover a{
+    color: black;
 }
